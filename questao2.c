@@ -58,9 +58,9 @@ int main() {
     printf("%s: %.2lf de forca\n", time2.nome, forcaTime2);
 
     if (forcaTime1 > forcaTime2) {
-        printf("%s  mais forte\n", time1.nome);
+        printf("%s eh mais forte\n", time1.nome);
     } else if (forcaTime2 > forcaTime1) {
-        printf("%s  mais forte\n", time2.nome);
+        printf("%s eh mais forte\n", time2.nome);
     } else {
         printf("Os times apresentam a mesma força: %.2lf\n", forcaTime1);
     }
